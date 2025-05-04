@@ -5,6 +5,47 @@
   padding: 0;
   box-sizing: border-box;
 }
+.left-card {
+  display: flex;
+  padding: 2em;
+  flex-direction: column;
+  width: 100%;
+  max-width: 500px;
+}
+.left-card h1 {
+  color: hsl(202, 55%, 16%);
+  font-size: 34px;
+  font-weight: 700;
+}
+.left-card h2,
+a {
+  color: hsl(200, 24%, 40%);
+  font-weight: 500;
+  font-size: 16px;
+}
+.left-card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2em;
+}
+.Amount {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+.Amount h2,
+span {
+  color: hsl(203, 16%, 62%);
+  font-weight: 600;
+  font-size: 16px;
+}
+.Amount input {
+  padding: 1em 2em;
+  border-radius: 10px;
+  border: solid 1px hsl(203, 16%, 62%);
+}
+
 .right-card {
   display: flex;
   padding: 2em;
